@@ -16,8 +16,5 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://npm.pkg.github.com/"
-  },
-  "dependencies": {
-    "@dan-du-car/my-npm-package": "^1.0.0"
   }
 }
