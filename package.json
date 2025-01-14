@@ -1,10 +1,10 @@
 {
-  "name": "@samples/my-npm-package",
-  "version": "1.0.0",
+  "name": "@dan-du-car/my-npm-package",
+  "version": "1.0.1",
   "description": "Create a New Directory: ``` mkdir my-npm-package cd my-npm-package ``` ## Initialize npm: ``` npm init -y ``` This will create a package.json file.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node consumer.js"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +16,8 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "@dan-du-car/my-npm-package": "^1.0.0"
   }
 }
