@@ -1,7 +1,7 @@
 {
   "name": "@dan-du-car/my-npm-package",
-  "version": "1.0.1",
-  "description": "Create a New Directory: ``` mkdir my-npm-package cd my-npm-package ``` ## Initialize npm: ``` npm init -y ``` This will create a package.json file.",
+  "version": "1.0.2",
+  "description": "My first npm package",
   "main": "index.js",
   "scripts": {
     "test": "node consumer.js"
