@@ -59,7 +59,7 @@ git push -u origin main
 ## Authenticate with GitHub Registry
 Generate a Personal Access Token (PAT):
 - Go to your GitHub Developer Settings.
-- Generate a token with write:packages, read:packages, and repo scopes.
+- Generate a token with `write:packages`, `read:packages`, and `repo` scopes.
 - Save the token for the next step.
 - Authenticate npm to Use GitHub Registry:
 ```
